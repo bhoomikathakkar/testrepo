@@ -1,5 +1,4 @@
 node {
-    git url: 'https://github.com/bhoomikathakkar/testrepo.git'
-    def mvnHome = tool 'M3'
-    bat "${mvnHome}/bin/mvn -B verify"
+  stage  'run jmeter test'
+  bat 'C:\Users\BhoomikaT\Downloads\jmeter\apache-jmeter-5.4.1\bin\jmeter.sh -n -t  C:\Users\BhoomikaT\jmeter workspace\test_plan\testplan.jmx -l C:\Users\BhoomikaT\jmeter workspace\test_results\testresult.jtl '
 }
