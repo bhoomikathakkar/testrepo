@@ -1,4 +1,4 @@
 node {
   stage  'run jmeter test'
-  bat 'C:/Users/BhoomikaT/Downloads/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t  origin +refs/heads/master:refs/remotes/origin/master/test_plan/testplan.jmx -juser=2 -l C:/Users/BhoomikaT/jmeter workspace/test_results/testresult.jtl '
+  bat 'C:/Users/BhoomikaT/Downloads/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t  origin +refs/heads/master:refs/remotes/origin/master/test_plan/testplan.jmx -juser=10 -l C:/Users/BhoomikaT/jmeter workspace/test_results/testresult.jtl '
 }
